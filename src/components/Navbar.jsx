@@ -1,18 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router";
+import logoImage from "./assets/logo.png";
 
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 border-gray-200 font-inter bg-white z-30">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 text-blue-900">
-        <NavLink
-          to="/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
-        >
-          <span className="self-center md:text-2xl font-semibold whitespace-nowrap ">
-            Service Center Electrolux
-          </span>
+        <NavLink to="/" className="flex items-center">
+          <img className="w-28" src={logoImage} alt="" />
         </NavLink>
+
         <button
           data-collapse-toggle="navbar-default"
           type="button"
