@@ -19,12 +19,11 @@ const Tentang = () => {
           </div>
           <div className="md:w-1/2 text-center md:text-left space-y-6">
             <h2 className="text-4xl font-bold text-gray-800 tracking-tight">
-              ✨ Visi Kami
+              ✨ Visi & misi Kami
             </h2>
             <p className="text-lg font-bold text-gray-700 leading-relaxed">
-              Kami percaya bahwa rumah yang bersih dan modern meningkatkan
-              kualitas hidup. Visi kami adalah menjadi pilihan utama dalam
-              solusi peralatan rumah tangga yang inovatif dan ramah lingkungan.
+            Menjadi pusat layanan terpercaya yang memberikan kenyamanan dan kepuasan pelanggan melalui servis produk Electrolux yang profesional dan berkualitas tinggi.
+            Memberikan pelayanan cepat dan andal untuk setiap kebutuhan servis produk Electrolux, didukung oleh teknisi berpengalaman, sistem pemesanan yang mudah, serta komitmen terhadap kualitas dan kepercayaan pelanggan.
             </p>
             <a
               href="/kontak"
@@ -42,9 +41,7 @@ const Tentang = () => {
               🛠️ Layanan Kami
             </h2>
             <p className="text-lg font-bold text-gray-700 leading-relaxed">
-              Dari pembelian hingga perawatan, kami menyediakan layanan lengkap
-              dan responsif untuk memastikan setiap pelanggan merasa puas dan
-              terbantu dalam setiap langkah.
+            Kami menyediakan layanan servis resmi, mulai dari perbaikan, perawatan rutin, hingga penggantian suku cadang asli. Setiap layanan ditangani oleh teknisi bersertifikat dengan standar kualitas tinggi, demi memastikan peralatan rumah Anda tetap berfungsi optimal.
             </p>
             <a
               href="/layanan"
