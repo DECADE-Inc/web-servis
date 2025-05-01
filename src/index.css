@@ -3,6 +3,7 @@
 
 @theme {
     --font-inter: 'Inter', sans-serif;
-    --color-primary: rgba(10,38,71,1)
+    --color-primary: rgba(10,38,71,1);
+    --color-error: #ef9a9a;
 }
 

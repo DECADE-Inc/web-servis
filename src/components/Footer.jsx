@@ -1,5 +1,8 @@
 import React from "react";
 import logoImage from "./assets/logo.png";
+import { Link } from "react-router";
+import WhatsAppIcon from "./assets/whatsapp.svg";
+import ContactBtn from "./ContactBtn";
 
 const Footer = () => {
   return (
@@ -10,14 +13,7 @@ const Footer = () => {
           Butuh Service Electrolux? Hubungi kami sekarang dan dapatkan layanan
           terbaik! 📞
         </h2>
-        <a
-          href="https://wa.me/6281234567890"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 inline-block text-sm md:text-lg rounded-lg bg-white px-6 py-3 font-semibold text-blue-900 shadow transition hover:scale-105"
-        >
-          WhatsApp Sekarang
-        </a>
+        <ContactBtn />
       </section>
 
       {/* Footer */}
@@ -45,24 +41,24 @@ const Footer = () => {
             <h3 className="mb-2 font-bold text-blue-900">Navigasi</h3>
             <ul className="space-y-1">
               <li>
-                <a href="/" className="hover:underline">
+                <Link to="/" className="hover:underline">
                   Beranda
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/tentang" className="hover:underline">
+                <Link to="/tentang" className="hover:underline">
                   Tentang
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/layanan" className="hover:underline">
+                <Link to="/layanan" className="hover:underline">
                   Layanan
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/kontak" className="hover:underline">
+                <Link to="/kontak" className="hover:underline">
                   Kontak
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
