@@ -1,42 +1,67 @@
-import React from 'react';
+import React from "react";
+import Gambar1 from "./images/bg2.jpg";
+import Gambar2 from "./images/bg1.jpg";
 
-export default function Tentang() {
+const Tentang = () => {
   return (
-    <div className="bg-white text-gray-800">
+    <section className="w-full py-24 px-4 bg-gradient-to-br from-blue-100 to-blue-300 backdrop-blur-md relative overflow-hidden">
+      {/* Background Overlay */}
+      <div className="absolute inset-0 z-0 bg-[url('/src/tentang/images/bg.jpg')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-gradient-to-tl from-blue-500/10 to-white/30 z-0"></div>
 
-     {/* Bagian Judul & Kontak dengan Background Gambar */}
-     <section className="text-center px-4 py-12 bg-cover bg-center relative"
-        style={{ backgroundImage: "url('src/tentang/images/background.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-black opacity-50 backdrop-blur-sm"></div> {/* Layer gelap di atas gambar */}
-        <h1 className="text-3xl md:text-4xl font-bold text-white relative z-10 py-4 px-6 inline-block rounded-lg animate-slideInRight">
-          Tantang Kami
-        </h1>
-      </section>
+      <div className="relative z-10 max-w-7xl mx-auto space-y-10">
+        {/* Section 1 */}
+        <div className="flex flex-col md:flex-row items-center gap-12">
+          <div className="md:w-1/2">
+            <div className="rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition duration-500">
+              <img src={Gambar1} alt="Visi Kami" className="w-full" />
+            </div>
+          </div>
+          <div className="md:w-1/2 text-center md:text-left space-y-6">
+            <h2 className="text-4xl font-bold text-gray-800 tracking-tight">
+              ✨ Visi Kami
+            </h2>
+            <p className="text-lg font-bold text-gray-700 leading-relaxed">
+              Kami percaya bahwa rumah yang bersih dan modern meningkatkan
+              kualitas hidup. Visi kami adalah menjadi pilihan utama dalam
+              solusi peralatan rumah tangga yang inovatif dan ramah lingkungan.
+            </p>
+            <a
+              href="/kontak"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-md transition duration-300 hover:scale-105"
+            >
+              Pelajari Lebih Lanjut
+            </a>
+          </div>
+        </div>
 
-      {/* Galeri Gambar */}
-      <div className="text-center text-2xl text-blue-800 font-bold mt-7 relative">
-        <h2>Tentang kami - Service Center Electrolux</h2>
+        {/* Section 2 */}
+        <div className="flex flex-col md:flex-row items-center gap-12">
+          <div className="md:w-1/2 order-2 md:order-1 text-center md:text-left space-y-6">
+            <h2 className="text-4xl font-bold text-gray-800 tracking-tight">
+              🛠️ Layanan Kami
+            </h2>
+            <p className="text-lg font-bold text-gray-700 leading-relaxed">
+              Dari pembelian hingga perawatan, kami menyediakan layanan lengkap
+              dan responsif untuk memastikan setiap pelanggan merasa puas dan
+              terbantu dalam setiap langkah.
+            </p>
+            <a
+              href="/layanan"
+              className="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-md transition duration-300 hover:scale-105"
+            >
+              Lihat Layanan
+            </a>
+          </div>
+          <div className="md:w-1/2 order-1 md:order-2">
+            <div className="rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition duration-500">
+              <img src={Gambar2} alt="Layanan Kami" className="w-full" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto mb-8 mt-10">
-        <img src="src/tentang/images/ac.jpg" alt="Electrolux 1" className="rounded-lg shadow" />
-        <img src="src/tentang/images/kompor.jpg" alt="Electrolux 2" className="rounded-lg shadow" />
-        <img src="src/tentang/images/mesin_cuci.jpg" alt="Electrolux 3" className="rounded-lg shadow" />
-        <img src="src/tentang/images/oven.jpg" alt="Electrolux 4" className="rounded-lg shadow" />
-      </div>
-
-      {/* Deskripsi */}
-      <div className="max-w-5xl mx-auto space-y-6 text-lg text-gray-700 text-center">
-        <p>
-          Kami merupakan pusat layanan <strong className='text-blue-800'>resmi Electrolux di Indonesia</strong> yang siap membantu Anda dalam perawatan, perbaikan,
-          dan pemasangan berbagai produk rumah tangga seperti kulkas, mesin cuci, oven, dan lainnya. Kami memahami
-          pentingnya produk Electrolux dalam menunjang kenyamanan hidup Anda.
-        </p>
-        <p>
-          Dengan pengalaman bertahun-tahun di bidang <strong className='text-blue-800'>servis dan maintenance alat rumah tangga Electrolux</strong>,
-          kami hadir untuk memberikan solusi terbaik. Tim kami terdiri dari teknisi bersertifikat yang memastikan setiap servis dilakukan dengan teliti dan sesuai standar resmi Electrolux.
-        </p>
-      </div>
-    </div>
+    </section>
   );
-}
+};
+
+export default Tentang;
