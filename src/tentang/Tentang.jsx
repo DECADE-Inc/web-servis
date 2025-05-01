@@ -8,7 +8,6 @@ const Tentang = () => {
       {/* Background Overlay */}
       <div className="absolute inset-0 z-0 bg-[url('/src/tentang/images/bg.jpg')] bg-cover bg-center opacity-20"></div>
       <div className="absolute inset-0 z-0 bg-gradient-to-tl from-blue-500/10 to-white/30"></div>
-
       <div className="relative z-10 mx-auto max-w-7xl space-y-10">
         {/* Section 1 */}
         <div className="flex flex-col items-center gap-12 md:flex-row">
@@ -39,6 +38,7 @@ const Tentang = () => {
         </div>
 
         {/* Section 2 */}
+
         <div className="flex flex-col items-center gap-12 md:flex-row">
           <div className="order-2 space-y-6 text-center md:order-1 md:w-1/2 md:text-left">
             <h2 className="text-4xl font-bold tracking-tight text-gray-800">
