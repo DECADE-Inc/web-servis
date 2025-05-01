@@ -32,7 +32,7 @@ export default function Example() {
       <form
         action="#"
         method="POST"
-        className="mx-auto mt-16 max-w-xl sm:mt-20 space-y-6"
+        className="mx-auto mt-16 max-w-xl space-y-6 sm:mt-20"
       >
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
@@ -48,7 +48,7 @@ export default function Example() {
                 name="first-name"
                 type="text"
                 autoComplete="given-name"
-                className="block w-full rounded-lg bg-white px-4 py-3 text-base text-gray-900 shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="block w-full rounded-lg bg-white px-4 py-3 text-base text-gray-900 shadow-md focus:ring-2 focus:ring-yellow-400 focus:outline-none"
               />
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function Example() {
                 name="last-name"
                 type="text"
                 autoComplete="family-name"
-                className="block w-full rounded-lg bg-white px-4 py-3 text-base text-gray-900 shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="block w-full rounded-lg bg-white px-4 py-3 text-base text-gray-900 shadow-md focus:ring-2 focus:ring-yellow-400 focus:outline-none"
               />
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Example() {
                 name="email"
                 type="email"
                 autoComplete="email"
-                className="block w-full rounded-lg bg-white px-4 py-3 text-base text-gray-900 shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="block w-full rounded-lg bg-white px-4 py-3 text-base text-gray-900 shadow-md focus:ring-2 focus:ring-yellow-400 focus:outline-none"
               />
             </div>
           </div>
@@ -95,14 +95,13 @@ export default function Example() {
             </label>
             <div className="mt-2.5">
               <div className="flex rounded-lg bg-white shadow-md focus:ring-2">
-                <div className="grid shrink-0 grid-cols-1 focus-within:relative">
-                </div>
+                <div className="grid shrink-0 grid-cols-1 focus-within:relative"></div>
                 <input
                   id="phone-number"
                   name="phone-number"
                   type="text"
                   placeholder="0852xxxxxx"
-                  className="block min-w-0 grow py-3 px-4 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm"
+                  className="block min-w-0 grow px-4 py-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm"
                 />
               </div>
             </div>
@@ -119,7 +118,7 @@ export default function Example() {
                 id="message"
                 name="message"
                 rows={4}
-                className="block w-full rounded-lg bg-white px-4 py-3 text-base text-gray-900 shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="block w-full rounded-lg bg-white px-4 py-3 text-base text-gray-900 shadow-md focus:ring-2 focus:ring-yellow-400 focus:outline-none"
                 defaultValue={""}
               />
             </div>
@@ -131,7 +130,7 @@ export default function Example() {
         <div className="mt-5">
           <button
             type="submit"
-            className="w-full rounded-lg bg-indigo-600 py-3 text-center text-lg font-semibold text-white shadow-lg hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition duration-300"
+            className="w-full rounded-lg bg-indigo-600 py-3 text-center text-lg font-semibold text-white shadow-lg transition duration-300 hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Kirim
           </button>

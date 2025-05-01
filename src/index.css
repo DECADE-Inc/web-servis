@@ -3,5 +3,6 @@
 
 @theme {
     --font-inter: 'Inter', sans-serif;
+    --color-primary: rgba(10,38,71,1)
 }
 
