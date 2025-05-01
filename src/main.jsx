@@ -7,23 +7,29 @@ import Beranda from "./beranda/Beranda";
 import Tentang from "./tentang/tentang";
 import Layanan from "./layanan/layanan";
 import Kontak from "./kontak/Kontak";
+import Layout from "./components/Layout/Layout";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Beranda />,
-  },
-  {
-    path: "/tentang",
-    element: <Tentang />,
-  },
-  {
-    path: "/layanan",
-    element: <Layanan />,
-  },
-  {
-    path: "/kontak",
-    element: <Kontak />,
+    Component: Layout,
+    children: [
+      {
+        index: true,
+        Component: Beranda,
+      },
+      {
+        path: "/tentang",
+        Component: Tentang,
+      },
+      {
+        path: "/layanan",
+        Component: Layanan,
+      },
+      {
+        path: "/kontak",
+        Component: Kontak,
+      },
+    ],
   },
 ]);
 
