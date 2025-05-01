@@ -4,7 +4,7 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Beranda from "./beranda/Beranda";
-import Tentang from "./tentang/tentang";
+import Tentang from "./tentang/Tentang";
 import Layanan from "./layanan/layanan";
 import Kontak from "./kontak/Kontak";
 import Layout from "./components/Layout/Layout";
