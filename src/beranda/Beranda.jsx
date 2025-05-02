@@ -24,11 +24,11 @@ export default function Beranda() {
           <ContactBtn />
         </div>
       </section>
-      <section className="mx-4 mt-10 flex min-h-[400px] max-w-[1280px] flex-col justify-center rounded-lg bg-[linear-gradient(to_right,rgba(20,66,114,.2),rgba(10,38,71,.9)),url('/src/beranda/assets/servis_oven.jpg')] bg-cover bg-center bg-no-repeat px-6 py-4 text-right text-lg font-bold text-white md:items-end md:bg-contain md:bg-left md:px-10 md:text-4xl xl:mx-auto">
+      <section className="mx-4 mt-10 flex min-h-[400px] max-w-[1280px] flex-col justify-center rounded-lg bg-[linear-gradient(to_right,rgba(20,66,114,.2),rgba(10,38,71,.9)),url('/src/beranda/assets/kompor-1.png')] bg-cover bg-center bg-no-repeat px-6 py-4 text-right text-lg font-bold text-white md:items-end md:bg-contain md:bg-left md:px-10 md:text-4xl xl:mx-auto">
         <h5>Menyediakan layanan perbaikan</h5>
         <h5 className="text-blue-200">Water Heater Elektrolux anda</h5>
       </section>
-      <section className="mx-4 my-14 flex min-h-[400px] max-w-[1280px] flex-col justify-center rounded-lg bg-[linear-gradient(to_right,rgba(10,38,71,.9),rgba(20,66,114,.2)),url('/src/beranda/assets/servis_kompor.jpg')] bg-center bg-no-repeat px-6 py-4 text-left text-lg font-bold text-white md:bg-contain md:bg-right md:px-10 md:text-4xl xl:mx-auto">
+      <section className="mx-4 my-14 flex min-h-[400px] max-w-[1280px] flex-col justify-center rounded-lg bg-[linear-gradient(to_right,rgba(10,38,71,.9),rgba(20,66,114,.2)),url('/src/beranda/assets/kompor-2.jpg')] bg-center bg-no-repeat px-6 py-4 text-left text-lg font-bold text-white md:bg-contain md:bg-right md:px-10 md:text-4xl xl:mx-auto">
         <h5>Menyediakan layanan perbaikan</h5>
         <h5 className="text-blue-200">Kompor Elektrolux anda</h5>
       </section>
