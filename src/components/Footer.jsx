@@ -33,9 +33,8 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="mb-2 font-bold text-blue-900">Kontak</h3>
-            <p>📞 +62 812 3456 7890</p>
-            <p>📧 support@electroluxservice.id</p>
-            <p>🌐 www.electroluxservice.id</p>
+            <p>📞 +62 831 6981 6073</p>
+            <p>📧 servicecenterelectrolux198@gmail.com</p>
           </div>
           <div>
             <h3 className="mb-2 font-bold text-blue-900">Navigasi</h3>
