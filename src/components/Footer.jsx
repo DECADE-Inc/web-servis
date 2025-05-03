@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="mb-2 font-bold text-blue-900">Kontak</h3>
-            <p>📞 +62 831 6981 6073</p>
+            <p>📞 +62 82135272679</p>
             <p>📧 servicecenterelectrolux198@gmail.com</p>
           </div>
           <div>
