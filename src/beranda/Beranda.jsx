@@ -13,7 +13,7 @@ export default function Beranda() {
     <>
       <section className="relative flex h-screen items-center justify-center overflow-hidden bg-[linear-gradient(to_bottom,rgba(10,38,71,.9),rgba(20,66,114,.8)),url('/src/beranda/assets/hero-background.jpg')] bg-cover bg-center bg-no-repeat text-center">
         <div className="w-3/4 text-center text-white md:w-2/3">
-          <h1 className="text-xl font-bold md:text-4xl">Servis Elektronik</h1>
+          <h1 className="text-xl font-bold md:text-4xl">Servis Electrolux</h1>
           <h1 className="text-xl font-bold text-blue-200 md:text-4xl">
             Cepat, Terpercaya, dan Profesional
           </h1>
